@@ -1,13 +1,13 @@
 public class exer43 {
     public static void main(String[] args) {
-        double quantidadeNaCasa = 1, casas = 64;
-        int valor = 1;
 
-        for (int i = 1; i <= casas; i++) {
-            quantidadeNaCasa = quantidadeNaCasa * 2;
-            valor += quantidadeNaCasa;
-            
+        long soma = 1, inicio = 1;
+
+        for (int i = 1; i <= 64; i++) {
+            inicio *= 2;
+            soma += inicio;
+            System.out.println("Casa "+i+" tem "+inicio+" de grãos");
         }
-        System.out.println(valor);
+        System.out.println(soma);
     }
 }

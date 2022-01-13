@@ -1,3 +1,3 @@
 f = float(input('Temperatura em Fahrenheit: '))
-c = float((f  - 32) * 9/ 5)
+c = float((f - 32) * 5 / 9)
 print(f'Conversão em Celsius: {c}')

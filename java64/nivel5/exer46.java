@@ -3,6 +3,7 @@ import javax.swing.JOptionPane;
 public class exer46 {
     public static void main(String[] args) {
         int nXY;
+        int produto = 0;
 
         nXY = Integer.parseInt(JOptionPane.showInputDialog("Valor do vetor X e Y: "));
 
@@ -18,7 +19,8 @@ public class exer46 {
         }
 
         for (int z = 0; z < y.length; z++) {
-            JOptionPane.showMessageDialog(null, x[z] + " * " + y[z] + " = " + (x[z] * y[z]));
+            produto = produto + x[z] * y[z];
         }
+        JOptionPane.showMessageDialog(null, "Produto esalar é: " + produto);
     }
 }

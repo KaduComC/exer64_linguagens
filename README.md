@@ -4,4 +4,5 @@
 
 Faço os mesmos exercícios em todas as linguagens que estou aprendendo
 
+Quem quiser me ajudar é só ajuda kkkkkk
 Vou atualizar toda vez que aprender algo novo

@@ -2,7 +2,9 @@ import javax.swing.JOptionPane;
 
 public class exer51 {
     public static void main(String[] args) {
-        int n, soma = 0, media = 0, maior = 0;
+        int n, soma = 0;
+        int media = 0;
+        int maior = 0;
         boolean menor = true;
         n = Integer.parseInt(JOptionPane.showInputDialog("Quantidade de alunos:"));
         int[] alunos = new int[n];

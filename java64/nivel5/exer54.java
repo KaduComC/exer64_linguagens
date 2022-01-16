@@ -6,6 +6,7 @@ public class exer54 {
         int[] A = new int[5], B = new int[8];
         ArrayList<Integer> C = new ArrayList<Integer>();
         int add = 0;
+        
         for (int i = 0; i < A.length; i++) {
             System.out.println("Valores de A: ");
             A[i] = ler.nextInt();

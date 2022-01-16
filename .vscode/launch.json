@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch exer57",
+            "request": "launch",
+            "mainClass": "exer57",
+            "projectName": "exer64_linguagens_f2d23f13"
+        },
+        {
+            "type": "java",
             "name": "Launch exer1",
             "request": "launch",
             "mainClass": "exer1",

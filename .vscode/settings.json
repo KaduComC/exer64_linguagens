@@ -6,5 +6,6 @@
         "java64/nivel4",
         "java64/nivel5",
         "java64/nivel6"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "Disabled"
 }
